@@ -6,12 +6,17 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Rooms from "./Pages/Rooms";
 import Login from "./Pages/Login";
+import Signup from "./Pages/Signup";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Navbar />
+        <About/>
+        <Login/>
+        <Signup/>
+        
 
         <Routes>
           <Route path="/" element={<Front />} />
@@ -21,6 +26,7 @@ function App() {
           <Route path="/Rooms" element={<Rooms />} />
           <Route path="/Login" element={<Login />} />
         </Routes>
+        
       </BrowserRouter>
     </div>
   );
