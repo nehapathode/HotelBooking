@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <div className="h-20 w-full bg-linear-to-r from-[#92c9d5] to-[#66BFC1] flex justify-between fixed items-center">
+      <div className="h-20 w-full bg-linear-to-r from-[#6DB9BB] via-[#56AEB0] to-[#3E9EA3] flex justify-between fixed items-center">
         <div className="h-20 w-[25%] text-2xl text-amber-50 flex justify-center items-center font-bold">
           <FaMapMarkerAlt className="h-10 w-15 text-amber-300" />
           Hotel Booking
