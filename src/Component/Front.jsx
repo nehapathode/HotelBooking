@@ -36,7 +36,7 @@ function Home() {
             placeholder="Enter hotel name..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-100p-3 border border-gray-300 rounded-md outline-none bg-[#C4E3E3] focus:border-[#5BB1B3] shadow-md"
+            className="h-15 w-60  border border-gray-300 rounded-md outline-none bg-[#C4E3E3]  shadow-md"
           />
 
         </div>
