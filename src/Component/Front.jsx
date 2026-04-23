@@ -19,7 +19,7 @@ function Home() {
         </div>
 
         <div className="h-9 w-[27%] flex justify-center items-center text-2xl text-black">
-          Book Your Stay With Us
+          Book Your Stay With Us..
         </div>
 
         <div className="h-10 w-[50%] mt-8 text-black flex justify-center font-bold items-center text-3xl">
